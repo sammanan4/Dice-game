@@ -1,0 +1,109 @@
+body{
+    background-image: url("Img/distant-planet-3840x2160-moon-horizon-sunset-4k-9819.png");
+    background-clip: border-box;
+}
+#mainframe{
+    width: 1100px;
+    height: 600px;
+    padding-top: 115px;
+    padding-left: 320px;
+}
+#Player_0{
+    float: left;
+    width: 40%;
+    height: 85%;
+    background: linear-gradient(#b5b5b5, #77777f 50%, #45807d 80%);
+    font-size: xx-large;
+}
+#Player_1{
+    float: left;
+    width: 40%;
+    height: 85%;
+    background: linear-gradient(#26775c, #77777f 50%, #b98a8a 80%);
+    font-size: xx-large;
+}
+.player_name{
+    color: #2f15b3;
+    position: relative;
+    top: 100px;
+    left: 120px;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: Century Gothic;
+}
+.score_box{
+    position: relative;
+    color: white;
+    top: 200px;
+    left: 168px;
+    width: 90px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    line-height: 30px;
+    background-color: #000;
+    box-shadow: inset 0 0 20px #1aaf94;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s all ease;
+}
+.score_box:hover{
+    transform: scale(1.5);
+    color: black;
+    background-color: #fff;
+}
+.label{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Century Gothic;
+}
+.player_current_score{
+    font-size: xx-large;
+    font-family: Century Gothic;
+}
+.player_score{
+    color: #b34915;
+    position: relative;
+    top: 150px;
+/*    left: 180px;*/
+    font-size: 60px;
+    text-align: center;
+    font-family: Century Gothic;
+}
+button{
+/*    position: fixed;*/
+    position: absolute;
+    background: none;
+    border: none;
+    color: red;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Century Gothic;
+    transition: 0.5s all ease;
+}
+button:hover{
+    color: black;
+    transform: scale(1.3);
+}
+#New_game{
+    top: 170px;
+    left: 712px;
+}
+#Roll_dice{
+    top: 480px;
+    left: 720px;
+}
+#Hold{
+    top: 540px;
+    left: 740px;
+}
+#diceImg img{
+    position: absolute;
+    top: 210px;
+    left: 725px;
+    width: 80px;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 30px;
+}
